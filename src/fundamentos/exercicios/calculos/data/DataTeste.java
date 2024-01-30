@@ -3,7 +3,7 @@ package fundamentos.exercicios.calculos.data;
 public class DataTeste {
     public static void main(String[] args) {
 
-        Data data1 = new Data(28, 01, 1990);
+        Data data1 = new Data(28, 1, 1990);
 
         var data2 = new Data();
         data2.dia = 1;

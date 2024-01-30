@@ -2,18 +2,19 @@ package fundamentos.exercicios.calculos.data;
 
 public class Data {
 
-    Integer dia = 01;
-    Integer mes = 01;
-    Integer ano = 01;
+    Integer dia = 1;
+    Integer mes = 1;
+    Integer ano = 1;
 
-    Data(int dd, int mm, int aa){
-        dia = dd;
-        mes = mm;
-        ano = aa;
+    Data(int dia, int mes, int ano){
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
-    Data(){
 
+
+    Data(){
     }
 
     String dataFormatada(){
